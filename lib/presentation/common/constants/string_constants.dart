@@ -21,5 +21,7 @@ class StringConstants {
   static const String unstitched = 'Unstitched';
   static const String boutiqueCollection = 'Boutique Collection';
   static const String handpicked = 'HANDPICKED \nFOR FASHION DESIGNERS';
+  static const String rangeOfPattern = 'Range of Pattern';
+  static const String designAsPerOccasion = 'Design As Per Occasion';
 
 }

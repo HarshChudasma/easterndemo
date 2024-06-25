@@ -109,7 +109,27 @@ class DashboardHomeMenuWidget extends StatelessWidget {
                             SizedBox(
                               height: 12.h,
                             ),
+                            Text(
+                              StringConstants.rangeOfPattern,
+                              style: context.textTheme.labelLarge?.copyWith(
+                                  fontSize: 20.sp,
+                                  fontWeight: FontWeight.w700
+                              ),
+                            ),
+                            SizedBox(
+                              height: 12.h,
+                            ),
                             DashboardHomeRangeOfPattern(),
+                            SizedBox(
+                              height: 12.h,
+                            ),
+                            Text(
+                              StringConstants.designAsPerOccasion,
+                              style: context.textTheme.labelLarge?.copyWith(
+                                  fontSize: 20.sp,
+                                  fontWeight: FontWeight.w700
+                              ),
+                            ),
                             SizedBox(
                               height: 12.h,
                             ),
